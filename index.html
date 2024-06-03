@@ -1,13 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Tables and Forms</title>
-  </head>
-  <body>
-    <main>
-      <!-- Complete the Exercises HERE -->
-    </main>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML Tables and Forms</title>
+  <link rel ="stylesheet" href ="soda.css">
+</head>
+
+<body>
+  <main>
+    <table>
+      <caption>Soda Nutrition facts</caption>
+      <thead>
+        <tr>
+          <th>Soda brand</th>
+          <th>total servings</th>
+          <th>serving size</th>
+          <th>calories per serving</th>
+          <th>carbs per serving</th>
+          <th>sugars per serving</th>
+          <th>sodium per serving</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Coca-cola</td>
+          <td>1 can</td>
+          <td>1 can</td>
+          <td>90 kcal</td>
+          <td>25g</td>
+          <td>25g</td>
+          <td>30mg</td>
+        </tr>
+        <tr>
+          <td>Pepsi</td>
+          <td>1 can</td>
+          <td>1 can</td>
+          <td>150 kcal</td>
+          <td>41g</td>
+          <td>41g</td>
+          <td>30mg</td>
+        </tr>
+        <tr>
+          <td>Coke 0</td>
+          <td>1 can</td>
+          <td>1 can</td>
+          <td>0 kcal</td>
+          <td>0g</td>
+          <td>0g</td>
+          <td>40mg</td>
+        </tr>
+        <tr>
+          <td>Dr. Pepper</td>
+          <td>1 can</td>
+          <td>1 can</td>
+          <td>150kcal</td>
+          <td>40g</td>
+          <td>40g</td>
+          <td>55mg</td>
+          
+        </tr>
+        <tr>
+          <td>Mt. Dew</td>
+          <td>1 can</td>
+          <td>1 can</td>
+          <td>170kcal</td>
+          <td>44g</td>
+          <td>44g</td>
+          <td>60mg</td>
+        </tr>
+      </tbody>
+
+    </table>
+    <form>
+      <fieldset>
+        <legend>Soda Nutrition</legend>
+        <label >Total serving size</label>
+        <input for ="number" name="total" id="total">
+        <br>
+        <label >Serving size(in cans)</label>
+        <input for ="number" name="serving" id="serving">
+        <br>
+        <label > calories per serving(in kcals)</label>
+        <input for ="number" name="kcal" id="kcal">
+        <br>
+        <label >carbs per serving(in grams)</label>
+        <input for ="number" name="carbs" id="carbs">
+        <br>
+        <label >sugars per serving(In grams)</label>
+        <input for ="number" name="sugar" id="sugar">
+        <br>
+        <label >sodium per serving(In milligrams)</label>
+        <input for ="number" name="sodium" id="sodium">
+        
+      </fieldset>
+      <button type = "submit">Enter Results</button>
+    
+    </form>
+  </main>
+  
+</body>
+
 </html>

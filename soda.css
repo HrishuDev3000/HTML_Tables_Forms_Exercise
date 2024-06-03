@@ -1,0 +1,15 @@
+th{
+    padding: 8px;
+}
+main{
+    background-color: darkmagenta;
+    color:cyan;
+    border: whitesmoke;
+}
+
+tbody{
+    text-align: center;
+    color: yellow;
+    background-color: rgb(255, 0, 0);
+    border: yellow;
+}
